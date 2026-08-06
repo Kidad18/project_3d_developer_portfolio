@@ -42,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Startup Founder",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud Enthusiast",
     icon: creator,
   },
 ];
@@ -116,55 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Aruvixa Tech Solution (Founder & CEO)",
+    company_name: "Aruvixa",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "rgb(255, 255, 255)",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Founded and leading Aruvixa Tech Solution, delivering AI-powered and custom software solutions for businesses.",
+  "Managing client projects from planning and development to deployment and maintenance.",
+  "Leading a development team while collaborating with clients to build scalable digital products.",
+  "Driving innovation through full-stack development, cloud technologies, and modern web solutions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Machine Learning Intern",
+    company_name: "Embsys Technologies",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "rgb(255, 255, 255)",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and trained machine learning models using real-world datasets and AI techniques.",
+  "Performed data preprocessing, feature engineering, and model evaluation to improve performance.",
+  "Collaborated with mentors to implement AI solutions for practical business problems.",
+  "Gained hands-on experience with machine learning workflows, algorithms, and model optimization.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Software Development",
+    company_name: "Edify Technologies",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "rgb(255, 255, 255)",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+       "Developed and maintained software applications using modern programming technologies and best practices.",
+  "Collaborated with senior developers to implement new features and resolve software issues.",
+  "Participated in testing, debugging, and code reviews to improve application quality.",
+  "Contributed to real-world software projects while following industry-standard development workflows.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Founder & Owner",
+    company_name: "Cravings",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "rgb(0, 0, 0)",
+    
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed the daily operations of a food business, ensuring efficient service and customer satisfaction.",
+  "Handled inventory management, supplier coordination, and financial transactions.",
+  "Built strong communication, leadership, and problem-solving skills through business management.",
+  "Improved business operations by maintaining quality standards and delivering excellent customer experiences.",
     ],
   },
 ];
@@ -172,93 +172,93 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Ganesh consistently exceeds expectations with his technical expertise and commitment to quality.",
+    name: "Karthik Kannan",
+    designation: "CEO",
+    company: "Embsys Technologies",
+    image: "https://github.com/Kidad18/Vigil_Safe/blob/main/karthick.jpeg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "A creative developer who approaches every project with professionalism and innovative thinking.",
+    name: "Sangeeth",
+    designation: "Co-Founder",
+    company: "Aruvixa",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Reliable, dedicated, and always focused on delivering meaningful solutions and professionalism.",
+    name: "Selvaraj",
+    designation: "Founder",
+    company: "MIE",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EcoByte",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI-Powered Microplastic Detection & Degradation System.",
     tags: [
       {
-        name: "react",
+        name: "AI Prediction",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Water Quality Monitoring",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Fungal Bioremediation",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Kidad18/Eco_Byte",
   },
   {
-    name: "Job IT",
+    name: "Vigil Safe",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "AI-Based Women's Safety Platform.",
     tags: [
       {
-        name: "react",
+        name: "SOS Detection",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Voice Recognition",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Face Recognition",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Kidad18/Vigil_Safe",
   },
   {
-    name: "Trip Guide",
+    name: "LifeLink",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "AI-Powered Emergency Blood & Organ Donation Platform.",
     tags: [
       {
-        name: "nextjs",
+        name: "AI-assisted donor matching",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Verified donor profiles",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Real-time emergency coordination",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Kidad18/Life-Link",
   },
 ];
 
