@@ -36,6 +36,25 @@ const Ball = ({ imgUrl }) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  // Don't create WebGL canvases on mobile devices.
+  const isMobile =
+    typeof window !== "undefined" &&
+    window.matchMedia("(max-width: 768px)").matches;
+
+  // Mobile fallback
+  if (isMobile) {
+    return (
+      <div className="w-full h-full flex items-center justify-center">
+        <img
+          src={icon}
+          alt="technology"
+          className="w-16 h-16 object-contain"
+        />
+      </div>
+    );
+  }
+
+  // Desktop 3D version
   return (
     <Canvas
       frameloop="demand"
@@ -48,7 +67,6 @@ const BallCanvas = ({ icon }) => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} enablePan={false} />
-
         <Ball imgUrl={icon} />
       </Suspense>
     </Canvas>
