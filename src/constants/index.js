@@ -182,8 +182,8 @@ const testimonials = [
     testimonial:
       "A creative developer who approaches every project with professionalism and innovative thinking.",
     name: "Sangeeth",
-    designation: "Co-Founder",
-    company: "Aruvixa",
+    designation: "CMO",
+    company: "Wavicles",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
